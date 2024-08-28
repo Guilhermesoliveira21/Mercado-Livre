@@ -1,0 +1,23 @@
+.loadd {
+        margin: 0px auto ;
+        width: 100%;
+}
+
+.loader {
+        font-size: 2rem;
+        margin: 200px auto ;
+        animation: spin 2s linear infinite;
+        width: 100%;
+        color: rgb(0, 79, 168);
+}
+
+
+
+@keyframes spin {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
